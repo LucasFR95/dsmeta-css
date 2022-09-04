@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #181819;
+    color:#fff;
+  
+}
+
+.header{
+    background: linear-gradient(180deg, #102347 0%, #181818 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:220px;
+    width: 100%;
+  
+}
+
+.header-first{
+    margin-top: 28px;
+}
+
+.header-first>p{
+    position:relative;
+    left: 50%;
+}
+
+.header-first>h1{
+    text-align: center;
+}
+
+#sales{
+    margin: 40px 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;   
+    
+}
+
+
+
+.socials{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    
+}
+
+.socials a{
+    margin: 5px;
+    position: relative;
+
+}
+
+.socials-ref{
+    color: unset;
+    text-decoration: none;
+}
+
+.socials img{
+    width: 40px;
+    height: 40px;
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.socials-icons{
+    margin-top: 10px;
+}
+
+.table-components {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.table-components-title{
+    color: #676FFF;
+    font-size: 24px;
+   
+}
+
+.table-components-title-box{
+    margin-bottom: 10px;
+}
+
+.table-form-control{
+    width: 100%;
+    height: 46px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    border-radius: 5px;
+    color: #9AAABE;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+
+.table-components-date-box{
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+
+.table-content{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table-content thead{
+    height: 55px;
+    font-size: 16px;
+    color:#E9E9E9;
+    font-weight: 700;
+}
+
+.table-content tbody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.table-content tbody tr{
+    height: 74px;
+    border-top: 1px solid #5F6E82;
+}
+
+.table-content tbody tr:hover > td{
+    background-color: #384459;
+}
+
+.table-content tbody tr:nth-child(odd){
+    background-color: #242C3B;
+}
+
+.table-red-btn-box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.table-red-btn{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-red-btn img{
+    width: 19px;
+}
+
+.width576{
+ display: none;
+}
+
+.width992{
+    display: none;
+   }
+
+@media (min-width: 576px) {
+  .width576{
+    display:table-cell;
+  }  
+
+  .table-components{
+    padding: 35px;
+  }
+
+  .table-content tbody tr{
+    height: 55px;
+  }
+
+  .table-content tbody {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+    .width992{
+      display:table-cell;
+    }  
+  }
+
+  
